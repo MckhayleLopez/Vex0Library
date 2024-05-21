@@ -1,0 +1,81 @@
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"Vex0_Scripts Library", -- Name here.
+"Enabled", -- If you want draggable set here to "Enabled" if you dont want set to "Disabled".
+"p" -- You can put any keybind here to open close.
+)
+
+--Tabs--
+
+local tab1 = window:CreateTab("Blox fruits")
+local tab2 = window:CreateTab("Prison Life")
+local tab3 = window:CreateTab("Doors")
+local tab4 = window:CreateTab("Muscle Legends")
+local tab5 = window:CreateTab("Da Hood Mobile(PC Coming soon!)")
+local tab6 = window:CreateTab("Admin Scripts")
+local tab7 = window:CreateTab("The Strongest battlegrounds")
+local tab8 = window:CreateTab("Stands Awakening (Boss only)")
+
+--Game Scripts--
+
+tab1:CreateButton("Redz-Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+end)
+
+tab2:CreateButton("Tiger-Admin", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
+end)
+
+tab3:CreateButton("King-Hub", function()
+loadstring(game:HttpGetAsync("https://pastebin.com/raw/R8QMbhzv"))()
+end)
+
+tab4:CreateButton("Speed-Hub", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Muscle-Legends'),true))()
+end)
+
+tab5:CreateButton("NukerMode (Kickable or detected)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo1/Nukermode/main/Nukerscript"))()
+end)
+
+tab5:CreateButton("Aura (BETA) Remake (Kickable or detected)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k0nkx/Aura-x-skid-ez-remake-by-k0nkx/main/Sigma"))()
+end)
+
+tab5:CreateButton("Frostbyte (Only use CameraLock if it aims down)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Totocoems/Frostbyte-leaked/main/Frostbyte%20leaked"))()
+end)
+
+tab6:CreateButton("Fates Admin", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+end)
+
+tab6:CreateButton("Infinite-Yield", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+tab7:CreateButton("The Strongest Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripterbacon/TSBobfuscator/main/Main.Lua"))()
+end)
+
+tab8:CreateButton("Stands Awakening (Boss) Script)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/sus/main/Loader.lua"))()
+end)
+
+--Prison Life Speed--
+
+tab2:CreateTextbox("WalkSpeed", function(a)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = a
+end)
+
+--infos--
+
+tab1:CreateInfo("This Was made by Vex0_Scripts")
+
+--Warning--
+
+tab1:CreateWarning("Warning Do not Mess with the scripts or it wont work")
+
+--Add norizz8536 on discord request me more!--
+
+--Maki Pogi Jhoerby Pangit--
