@@ -22,6 +22,9 @@ tab1:CreateButton("Redz-Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
 end)
 
+tab2:CreateButton("Redz Hub Updated", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+
 tab2:CreateButton("Tiger-Admin", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
 end)
@@ -78,4 +81,6 @@ tab1:CreateWarning("Warning Do not Mess with the scripts or it wont work")
 
 --Add norizz8536 on discord request me more!--
 
---Maki Pogi Jhoerby Pangit--
+--Caleb Is a Skibidi Sigma Ohio--
+
+tab1:CreateWarning("Caleb is skibidi Sigma")
