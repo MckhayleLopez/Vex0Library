@@ -37,6 +37,10 @@ tab4:CreateButton("Speed-Hub", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/ahmadsgamer2/Script--Game/main/Muscle-Legends'),true))()
 end)
 
+tab4:CreateButton("Speed-Hub Fixed", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua"))()
+end)
+
 tab5:CreateButton("NukerMode (Kickable or detected)", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo1/Nukermode/main/Nukerscript"))()
 end)
@@ -84,3 +88,4 @@ tab1:CreateWarning("Warning Do not Mess with the scripts or it wont work")
 --Caleb Is a Skibidi Sigma Ohio--
 
 tab1:CreateWarning("Caleb is skibidi Sigma")
+tab1:CreateWRning(" MAKI MADE THIS GRR")
